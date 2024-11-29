@@ -1,0 +1,55 @@
+/* Personnalisation du style global */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Section d'accueil */
+.hero {
+  background-image: url('/assets/img/beoumi1.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Section Destinations */
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Personnalisation des boutons */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* Section Contact */
+form .form-control {
+  border-radius: 0.25rem;
+}
+
+form button[type="submit"] {
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  border: none;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background-color: #8e2800 ;
+  color: white;
+  padding: 20px 0;
+}
+
